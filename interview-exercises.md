@@ -42,3 +42,22 @@ var obj = {
    }
 };
 ```
+
+How old is Juan ?
+
+```javascript
+
+function new Person(age) {
+  this.age = age
+  this.grow = (years) => this.age += years;
+  this.rejuvenate = function (years) {
+    this.age -= years;
+  }
+}
+
+var juan = Person(18)
+juan.grow(2)
+juan.rejuvenete(3)
+
+console.log(juan.age) // ?
+```
