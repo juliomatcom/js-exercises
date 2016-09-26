@@ -1,7 +1,6 @@
 ### Scope
 
 ```javascript
-
 (function() {
    var a = b = 5;
 })();
@@ -29,9 +28,9 @@ function test() {
 test();
 ```
 ### this
+What is the result of the following code? Explain your answer.
 
 ```javascript
-
 var fullname = 'John Doe';
 var obj = {
    fullname: 'Colin Ihrig',
