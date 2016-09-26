@@ -53,7 +53,7 @@ function Person(age) {
     this.age++;
   }
   this.rejuvenate = function () {
-    this.age-- ;
+    this.age--;
   }
 }
 
