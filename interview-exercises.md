@@ -1,3 +1,4 @@
+### Scope
 
 ```javascript
 
@@ -10,6 +11,7 @@ console.log(b);
 
 What will be printed on the console?
 
+### Hoisting
 
 What’s the result of executing this code and why.
 
