@@ -57,7 +57,7 @@ function new Person(age) {
   }
 }
 
-var juan = Person(18)
+var juan = new Person(18)
 $button.on('click', juan.grow);
 $button.click();
 
