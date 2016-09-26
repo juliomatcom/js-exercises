@@ -49,15 +49,19 @@ How old is Juan ?
 
 function new Person(age) {
   this.age = age
-  this.grow = (years) => this.age += years;
-  this.rejuvenate = function (years) {
-    this.age -= years;
+  this.grow = function () { 
+    this.age++;
+  }
+  this.rejuvenate = function () {
+    this.age-- ;
   }
 }
 
 var juan = Person(18)
-juan.grow(2)
-juan.rejuvenete(3)
+$button.on('click', juan.grow);
+$button.click();
+
+juan.rejuvenete();
 
 console.log(juan.age) // ?
 ```
