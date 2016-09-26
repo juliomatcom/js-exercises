@@ -47,7 +47,7 @@ How old is Juan ?
 
 ```javascript
 
-function new Person(age) {
+function Person(age) {
   this.age = age
   this.grow = function () { 
     this.age++;
