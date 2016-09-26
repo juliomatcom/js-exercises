@@ -61,7 +61,7 @@ var juan = new Person(18)
 $button.on('click', juan.grow);
 $button.click();
 
-juan.rejuvenete();
+juan.rejuvenate();
 
 console.log(juan.age) // ?
 ```
